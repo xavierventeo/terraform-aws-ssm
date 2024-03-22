@@ -16,5 +16,5 @@ locals {
   allowed_ip = jsondecode(data.aws_secretsmanager_secret_version.allowed_ip_address_version.secret_string)["allowed_ip_address"]
 }
 
-# Refer allowed_ip local variable as: [local.allowed_ip]]
+# Refer allowed_ip local variable as: [local.allowed_ip]
 # Protected by design to print vaults using output
