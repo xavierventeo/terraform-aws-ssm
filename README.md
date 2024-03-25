@@ -1,11 +1,11 @@
-# terraform-aws-ssm
+# Terraform AWS SSM
 Get vault information stored on AWS Secrets Manager
 
-# Terraform Infrastructure as Code (IaC) Repository
+## Terraform Infrastructure as Code (IaC) Repository
 
 This repository contains Terraform code to provision and manage infrastructure on Amazon Web Services using Infrastructure as Code (IaC) principles.
 
-## Prerequisites
+### Prerequisites
 
 Before you begin, ensure you have the following tools installed:
 
@@ -14,7 +14,7 @@ Before you begin, ensure you have the following tools installed:
 
 You'll also need appropriate permissions and access credentials for your cloud provider.
 
-## Usage
+### Usage
 
 1. Clone this repository to your local machine:
 
@@ -48,7 +48,7 @@ terraform apply
 
 Confirm the action by typing 'yes' when prompted.
 
-## Cleanup
+### Cleanup
 
 To destroy the infrastructure provisioned by Terraform, run:
 
